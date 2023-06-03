@@ -1,15 +1,13 @@
 package de.erik.java;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
-public class WhateverTest {
-
+class WhateverTest {
 
     @Test
-    public void addition() {
+    void addition() {
         // setup
         Whatever target = new Whatever();
         // test
@@ -17,6 +15,4 @@ public class WhateverTest {
         // assert
         assertThat(result).isEqualTo(9);
     }
-
-
 }
